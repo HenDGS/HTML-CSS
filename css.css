@@ -1,0 +1,13 @@
+* {
+    font-family: Arial;
+    color: rgba(47, 190, 47, 0.486);
+}
+p {
+    color: yellow !important;
+}
+
+p {
+    color: rgb(255, 17, 0) !important;
+    background-color: aqua;
+    opacity: 0.8;
+}
