@@ -47,11 +47,14 @@ nav li {
     box-sizing: border-box;
     border: 2px solid black;
     border-radius: 10px;
+    opacity: 0.9;
+    transition: 1000ms;
 }
 
 .produtos li:hover {
     border-color: red;
     zoom: 1.1;
+    opacity: 1;
 }
 
 .produtos {

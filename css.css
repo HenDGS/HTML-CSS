@@ -1,5 +1,6 @@
 header {
-    background: lightgrey;
+    /*background: lightgrey;*/
+    background: linear-gradient(90deg, grey, white);
     padding: 20px 0;
 }
 
@@ -71,9 +72,10 @@ nav li {
 }
 
 footer {
+    display: block;
     text-align: center;
     background: url(../media/background2.jpeg);
-    position: absolute;
+    position: static;
     bottom: 0;
     margin-left: auto;
     margin-right: auto;
@@ -94,17 +96,18 @@ main {
     background: url(media/background2.jpeg) repeat;
 }
 
-main h1 {
+main h1, .mapa h3 {
     text-align: center;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 100px;
     margin-bottom: 30px;
 }
 
-main p {
+main p, .mapa p {
     text-align: center;
     font-weight: bold;
     font-size: 50px;
+    font-family: 'Bakbak One', cursive;
 }
 
 #about {
@@ -115,4 +118,10 @@ main p {
 #fundo {
     height: 100%;
     width: 100%;
+}
+
+.imagem {
+    width: 120px;
+    float: left;
+    visibility: hidden;
 }
