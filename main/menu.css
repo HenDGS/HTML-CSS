@@ -10,10 +10,11 @@
     grid-template-rows: auto auto auto;
 }
 
-.cabecalho {
-    background: linear-gradient(to top,white,#f1f1f1);
+.cabecalho {    
+    background: linear-gradient(to bottom,lightgrey,#fdfdfd);
     grid-area: cabecalho;
     padding: 0 2rem;
+    border-bottom: 1px solid lightgrey;
 }
 
 .menu-menu__lista {
@@ -57,6 +58,7 @@
 }
 
 .rodape {
+    background: #fdfdfd;
     grid-area: rodape;
     display: flex;
     justify-content: space-between;
@@ -64,6 +66,6 @@
 
 .conteudo__r {
     font-size: 18px;
-    color: white;
+    color: #f1f1f1;
     text-shadow: 1px 1px 2px black;
 }
