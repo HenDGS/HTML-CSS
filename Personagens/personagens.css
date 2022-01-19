@@ -1,4 +1,48 @@
-header {
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.produtos li {
+    text-align: center;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    opacity: 0.9;
+    transition: 1000ms;
+    margin: 5px;
+}
+
+.produtos li:hover {
+    border-color: red;
+    zoom: 1.1;
+    opacity: 1;
+}
+
+.character {
+    width: 200px;
+    height: 200px;
+}
+
+.produtos p {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.produtos h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.rodape {
+    justify-content: center;
+}
+/**header {
     background: lightgrey;
     padding: 20px 0;
 }
@@ -26,29 +70,11 @@ nav a:hover {
     position: relative;
     margin: 0 auto;
 }
-.character {
-    width: 200px;
-    height: 200px;
-}
+
 
 nav li {
     display: inline;
     margin: 0 0 0 15px;
-}
-
-.produtos li{
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 30px 20px;
-    padding-bottom: 10px;
-    box-sizing: border-box;
-    border: 2px solid black;
-    border-radius: 10px;
-    opacity: 0.9;
-    transition: 1000ms;
 }
 
 .produtos li:hover {
@@ -81,4 +107,4 @@ footer p{
     font-size: 20px;
     color: white;
     text-shadow: 1px 1px 2px black;
-}
+}**/
