@@ -17,8 +17,8 @@
 }
 
 .produtos li:hover {
-    border-color: red;
     zoom: 1.1;
+    border-color: red;    
     opacity: 1;
 }
 
